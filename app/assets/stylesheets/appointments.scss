@@ -1,11 +1,58 @@
 // Place all the styles related to the Appointments controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {
+	font-family: 'Lobster', Georgia, Times, serif;
+  font-size: 45px;
+}
+
+h3 {
+	font-family: 'Lobster', Georgia, Times, serif;
+  font-size: 30px;
+}
+
 body {
-  width:500px;
+  width: 500px;
   margin:auto;
-  font-family: Arial, sans-serif;
-  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
   line-height: 1.5;
   padding-bottom: 200px;
+}
+
+.input-text {
+  width: 250px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.submit-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+  width: 250px;
+}
+
+.appointment {
+  padding-top: 10px;
+  border-bottom: solid 1px #ccc;
+}
+
+.center {
+  height: 28px;
+  width: 250px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: baseline;
 }
