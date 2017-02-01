@@ -5,8 +5,13 @@ class AppointmentsController < ApplicationController
   end
 
   def create
-    @appointment = Appointment.create(appointment_params)
-    redirect_to :root
+    @appointment = Appointment.new(appointment_params)
+
+    if @appointment.save
+      render json: @appointment
+    else
+      render json: @appointment.errors, status: :unprocessable_entity
+    end
   end
 
   private
