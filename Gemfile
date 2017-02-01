@@ -61,5 +61,3 @@ gem 'react-rails'
 gem 'haml'
 
 gem 'font-awesome-sass'
-
-gem 'google-webfonts-rails'

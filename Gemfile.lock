@@ -62,7 +62,6 @@ GEM
       sass (>= 3.2)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
-    google-webfonts-rails (0.0.1)
     haml (4.0.7)
       tilt
     i18n (0.7.0)
@@ -180,7 +179,6 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
   font-awesome-sass
-  google-webfonts-rails
   haml
   jbuilder (~> 2.5)
   jquery-rails
