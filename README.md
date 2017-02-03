@@ -5,6 +5,7 @@ CalReact is a simple calendar app built as part of the [The Free React on Rails 
 
 #### Features:
 * Displays interactive calendar and formatted dates using [react-datetime](https://github.com/YouCanBookMe/react-datetime) and [Moment.js](https://momentjs.com/)
+* ES6 components and arrow functions
 
 #### Added Style:
 * Font Awesome calendar icon
